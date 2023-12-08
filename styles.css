@@ -1,3 +1,11 @@
-main{
-    background-image: url("kepek/hatter.png");
+body{
+   background-image:url(kepek/hatte1r.png) ;
+}
+li{
+    color: black;
+    display: inline;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+p{
+    color: whitesmoke;
 }

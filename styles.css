@@ -4,8 +4,19 @@ body{
 li{
     color: black;
     display: inline;
-    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+
 }
 p{
     color: whitesmoke;
+}
+li :hover{
+    background-color: black;
+    color: white;
+}
+nav img{
+    width:50%;
+    height: 900px;
+    float: right;
+    
 }

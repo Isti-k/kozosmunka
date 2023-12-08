@@ -20,3 +20,22 @@ nav img{
     float: right;
     
 }
+nav{
+    grid-area: n;
+}
+article{
+    grid-area: a;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+        " h , h  "     
+        " a , n  "
+        " f , f  "     ;
+}
+header{
+    grid-area: h;
+}
+footer{
+    grid-area: f;
+}
